@@ -73,3 +73,6 @@ default 는 중괄호 없이 나머지는 중괄호 필요
 * jquery 같은 외부라이브러리 사용한다할때 cdn 문제가 발생했을때 서비스 까지 영향을 줄수있음
 * 요즘 브라우저는 ESM 지원 
     - 오래된 브라우저, 많은 오픈 소스가 commonJS로 작성됨
+  
+npm install webpack webpack-cli react react-dom
+npx webpack

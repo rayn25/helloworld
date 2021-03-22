@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom;';
+import ReactDOM from 'react-dom';
 import Button from './Button.js';
 
 function Container() {
@@ -10,6 +10,6 @@ function Container() {
         React.createElement(Button,{ label: '좋아요'}),
         React.createElement(Button,{ label: '싫어요'}),
     );
-    const domContainer = document.getElementById('root');
-    ReactDom.render(React.createElement(Container), domContainer);
 }
+const domContainer = document.getElementById('root');
+ReactDOM.render(React.createElement(Container), domContainer);
