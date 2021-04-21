@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Box from './Box';
-import Button from './Button';
+import Box from 'css1-normal/Box';
+import Button from 'css1-normal/Button';
 
 ReactDOM.render(
     <div>
