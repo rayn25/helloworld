@@ -38,7 +38,7 @@
         function onDelete(e) {
             const id = Number(e.target.dataset.id);
             const index = todoList.findIndex(item => item.id === id);
-            if( index >= 0) {
+            if(index >= 0) {
                 todoList.splice(index, 1);
                 const listEl = document.querySelector('.todo .list');
                 const todoEl = e.target.parentNode;
